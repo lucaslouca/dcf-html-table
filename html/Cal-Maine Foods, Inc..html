@@ -1,0 +1,274 @@
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <meta charset='utf-8'>
+                <style>
+                    .green {
+                        color: limegreen;
+                        font-weight:bold;
+                    }
+                    .red {
+                        color: tomato;
+                        font-weight:bold;
+                    }
+                    h3 {
+                        text-align: center;
+                    }
+                    tr {
+                        height: 2em;
+                    }
+                    tr:nth-child(even) {
+                        background: #CCC;
+                    }
+                    tr:nth-child(odd) {
+                        background: #FFF;
+                    }
+                </style>
+            </head>
+        <body>
+        
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <th colspan="12"><h2>10-Year Valuation Model for Cal-Maine Foods, Inc.</h2></th>
+        </tr>
+
+        <tr>
+            <td colspan="12"><h3>Step 1: Forecast free cash flow to equity (FCFE) for the next 10 years</h3></td>
+        </tr>
+        <tr>
+            <td colspan="12">Assumes a constant 40.0% growth rate of Net Income and a reinvestment rate of 79.0% of Net Income.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><b>Yr 1</b></td>
+            <td><b>Yr 2</b></td>
+            <td><b>Yr 3</b></td>
+            <td><b>Yr 4</b></td>
+            <td><b>Yr 5</b></td>
+            <td><b>Yr 6</b></td>
+            <td><b>Yr 7</b></td>
+            <td><b>Yr 8</b></td>
+            <td><b>Yr 9</b></td>
+            <td><b>Yr 10</b></td>
+        </tr>
+
+        <tr>
+            <td><b>Net Income ($mil)</b></td>
+            <td>→</td>
+            <td>1061.2</td>
+            <td>1485.7</td>
+            <td>2080.0</td>
+            <td>2911.9</td>
+            <td>4076.7</td>
+            <td>5707.4</td>
+            <td>7990.3</td>
+            <td>11186.5</td>
+            <td>15661.1</td>
+            <td>21925.5</td>
+        </tr>
+
+        <tr>
+            <td><b>FCFE ($mil) after reinvestment at 79.0% of Net Income</b></td>
+            <td>→</td>
+            <td>222.9</td>
+            <td>312.0</td>
+            <td>436.8</td>
+            <td>611.5</td>
+            <td>856.1</td>
+            <td>1198.6</td>
+            <td>1678.0</td>
+            <td>2349.2</td>
+            <td>3288.8</td>
+            <td>4604.4</td>
+        </tr>
+
+        <tr>
+            <td colspan = "12"><h3>Step 2: Discount these free cash flows to reflect the present value</h3></td>
+        </tr>
+        <tr>
+            <td colspan = "12">Discount Factor = <em>(1 + R)ᴺ</em> (where <em>R</em>=discount rate and <em>N</em>=year being discounted)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><b>Yr 1</b></td>
+            <td><b>Yr 2</b></td>
+            <td><b>Yr 3</b></td>
+            <td><b>Yr 4</b></td>
+            <td><b>Yr 5</b></td>
+            <td><b>Yr 6</b></td>
+            <td><b>Yr 7</b></td>
+            <td><b>Yr 8</b></td>
+            <td><b>Yr 9</b></td>
+            <td><b>Yr 10</b></td>
+        </tr>
+
+        <tr>
+            <td><b>FCFE ($mil) after reinvestment at 79.0% of income</b></td>
+            <td>→</td>
+            <td>222.9</td>
+            <td>312.0</td>
+            <td>436.8</td>
+            <td>611.5</td>
+            <td>856.1</td>
+            <td>1198.6</td>
+            <td>1678.0</td>
+            <td>2349.2</td>
+            <td>3288.8</td>
+            <td>4604.4</td>
+        </tr>
+
+        <tr>
+            <td><b>÷ Discount factor</b></td>
+            <td></td>
+            <td>1.10<sup>1</sup></td>
+            <td>1.10<sup>2</sup></td>
+            <td>1.10<sup>3</sup></td>
+            <td>1.10<sup>4</sup></td>
+            <td>1.10<sup>5</sup></td>
+            <td>1.10<sup>6</sup></td>
+            <td>1.10<sup>7</sup></td>
+            <td>1.10<sup>8</sup></td>
+            <td>1.10<sup>9</sup></td>
+            <td>1.10<sup>10</sup></td>
+        </tr>
+
+        <tr>
+            <td><b>= Discounted FCFE ($mil)</b></td>
+            <td>→</td>
+            <td>202.6</td>
+            <td>257.8</td>
+            <td>328.2</td>
+            <td>417.7</td>
+            <td>531.6</td>
+            <td>676.6</td>
+            <td>861.1</td>
+            <td>1095.9</td>
+            <td>1394.8</td>
+            <td>1775.2</td>
+        </tr>
+
+        <tr>
+            <td><b>Sum of DFCFE ($mil)</b></td>
+            <td>→</td>            <td colspan = "10">= $7,541.33 (Sum of the 10 discounted cash flows) </td>
+        </tr>
+        <tr>
+            <td colspan = "12"><h3>Step 3: Calculate the terminal value and discount it to the present</h3></td>
+        </tr>
+        <tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><b>Yr 1</b></td>
+            <td><b>Yr 2</b></td>
+            <td><b>Yr 3</b></td>
+            <td><b>Yr 4</b></td>
+            <td><b>Yr 5</b></td>
+            <td><b>Yr 6</b></td>
+            <td><b>Yr 7</b></td>
+            <td><b>Yr 8</b></td>
+            <td><b>Yr 9</b></td>
+            <td><b>Yr 10</b></td>
+        </tr>
+
+                        <tr>
+                            <td><b>Net Income terminal value ($mil)</b></td>
+                            <td>→</td>
+                                <td>21925.5</td>
+            <td>22364.0</td>
+            <td>22811.3</td>
+            <td>23267.5</td>
+            <td>23732.9</td>
+            <td>24207.5</td>
+            <td>24691.7</td>
+            <td>25185.5</td>
+            <td>25689.2</td>
+            <td>26203.0</td>
+        </tr>
+
+                        <tr>
+                            <td><b>FCFE terminal value ($mil) after reinvestment at 79.0%</b></td>
+                            <td>→</td>
+                                <td>4604.4</td>
+            <td>4696.4</td>
+            <td>4790.4</td>
+            <td>4886.2</td>
+            <td>4983.9</td>
+            <td>5083.6</td>
+            <td>5185.3</td>
+            <td>5289.0</td>
+            <td>5394.7</td>
+            <td>5502.6</td>
+        </tr>
+
+                        <tr>
+                            <td><b>÷ Discount factor</b></td>
+                            <td></td>
+                            <td>1.10<sup>1</sup></td>
+            <td>1.10<sup>2</sup></td>
+            <td>1.10<sup>3</sup></td>
+            <td>1.10<sup>4</sup></td>
+            <td>1.10<sup>5</sup></td>
+            <td>1.10<sup>6</sup></td>
+            <td>1.10<sup>7</sup></td>
+            <td>1.10<sup>8</sup></td>
+            <td>1.10<sup>9</sup></td>
+            <td>1.10<sup>10</sup></td>
+        </tr>
+
+                        <tr>
+                            <td><b>= Discounted Terminal FCFE ($mil)</b></td>
+                            <td>→</td>
+                            <td>4185.8</td>
+            <td>3881.4</td>
+            <td>3599.1</td>
+            <td>3337.3</td>
+            <td>3094.6</td>
+            <td>2869.5</td>
+            <td>2660.9</td>
+            <td>2467.3</td>
+            <td>2287.9</td>
+            <td>2121.5</td>
+        </tr>
+
+        <tr>
+            <td><b>Terminal value ($mil)</b></td>
+            <td>→</td>            <td colspan = "10">= $30,505.29 (Sum of the 10 discounted cash flows) </td>
+        </tr>
+        <tr>
+            <td><b>Discounted ($mil)</b></td>
+            <td>→</td>
+            <td colspan = "10">$30,505.29 ÷ 1.10<sup>10</sup> = $11,761.11</td>
+        </tr>
+
+        <tr>
+            <td colspan = "12"><h3>Step 4: Calculate the total equity value</h3></td>
+        </tr>
+        <tr>
+            <td colspan = "12">Add the discounted terminal value (see above) to the sum of the 10 discounted cash flows (see step 2)</td>
+        </tr>
+        <tr>
+            <td><b>Total equity value ($mil)</b></td>
+            <td>→</td>
+            <td colspan = "10">$11,761.11 + $7,541.33= $19,302.43</td>
+        </tr>
+
+        <tr>
+            <td colspan = "12"><h3>Step 5: Calculate per share value</h3></td>
+        </tr>
+        <tr>
+            <td colspan = "12">Divide total equity value by shares outstanding.</td>
+        </tr>
+        <tr>
+            <td><b>Per share value</b></td>
+            <td>→</td>
+            <td colspan = "10">$19,302.43 ÷ 49.00 = <span class="green">$393.93</span> (Growth Value=$153.90, Terminal Value=$240.02). Trading at a <span class="green">86%</span> margin of safety from current stock price 57.</td>
+        </tr>
+
+    </tbody>
+</table>
+</body></html>

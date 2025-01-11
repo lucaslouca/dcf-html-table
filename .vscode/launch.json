@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DCF HTML Table",
+            "type": "python",
+            "request": "launch",
+            "program": "dcf-html-table.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
